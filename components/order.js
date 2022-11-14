@@ -15,9 +15,7 @@ const nextpage = () => {
     
   return (
     <View style={styles.container}>  
-         <TouchableOpacity style={styles.popularbtn}>
-<Text style={styles.Text}> > </Text>
-</TouchableOpacity>
+        
       <Text style={styles.paragraph}> 
  
       DELICIOUS SEAFOOD
@@ -25,99 +23,37 @@ const nextpage = () => {
       </Text>
 
         <View style={styles.buttonContainer}>
-
-
-
       </View>
+<Image style={styles.main} source={require("../assets/pasta.png")}/>
+<Image style={styles.mains} source={require("../assets/Garden-Salad.webp")}/>
+<Image style={styles.mainPic} source={require("../assets/pizza.jfif")}/>
 
-
-<Image style={styles.main} source={require("../assets/ukko.jpg")}/>
-    <View style={styles.buttonContainer}>
-<TouchableOpacity style={styles.popularbutton}>
-<Text style={styles.Text}>02</Text>
-</TouchableOpacity>
- </View>  
-
- <TouchableOpacity style={styles.minusbtn}>
-<Text style={styles.Text}>-</Text>
-</TouchableOpacity>
-
-<TouchableOpacity style={styles.plusbtn}>
-<Text style={styles.Text}>+</Text>
-</TouchableOpacity>
-
-<Image style={styles.mains} source={require("../assets/ukko.jpg")}/>
-<View style={styles.buttonContainer}>
-<TouchableOpacity style={styles.popularbutton}>
-<Text style={styles.Text}>02</Text>
-</TouchableOpacity>
- </View>  
-
- <TouchableOpacity style={styles.minusbtn}>
-<Text style={styles.Text}>-</Text>
-</TouchableOpacity>
-
-
-
-<TouchableOpacity style={styles.plusbtn}>
-<Text style={styles.Text}>+</Text>
-</TouchableOpacity>
-
-<Image style={styles.mainPic} source={require("../assets/ukko.jpg")}/>
-<View style={styles.buttonContainer}>
-<TouchableOpacity style={styles.popularbutton}>
-<Text style={styles.Text}>02</Text>
-</TouchableOpacity>
- </View>  
-
- <TouchableOpacity style={styles.minusbtn}>
-<Text style={styles.Text}>-</Text>
-</TouchableOpacity>
-
-<TouchableOpacity style={styles.plusbtn}>
-<Text style={styles.Text}>+</Text>
-</TouchableOpacity>
-
-<Image style={styles.mainPic} source={require("../assets/ukko.jpg")}/>
-<View style={styles.buttonContainer}>
-<TouchableOpacity style={styles.popularbutton}>
-<Text style={styles.Text}>02</Text>
-</TouchableOpacity>
- </View>  
- <TouchableOpacity style={styles.minusbtn}>
-<Text style={styles.Text}>-</Text>
-</TouchableOpacity>
-
-<TouchableOpacity style={styles.plusbtn}>
-<Text style={styles.Text}>+</Text>
-</TouchableOpacity>
-    
- 
+<Image style={styles.mainPic} source={require("../assets/lasagne.jfif")}/>
      <View style={styles.buttonContainer}>
 <TouchableOpacity style={styles.popularbtns}>
 <Text style={styles.Texts}>Burger and Chips</Text>
+<Text style={styles.prize}>R150</Text>
 </TouchableOpacity>
 
 </View>
 <TouchableOpacity style={styles.popularbtns1}>
 <Text style={styles.Texts}>Burger and Chips</Text>
+<Text style={styles.prize1}>R130</Text>
+
 </TouchableOpacity>
 
  <View style={styles.buttonContainer}>
 <TouchableOpacity style={styles.popularbtns2}>
 <Text style={styles.Texts}>Burger and Chips</Text>
+<Text style={styles.prize2}>R110</Text>
 </TouchableOpacity>
 
 </View>
 <TouchableOpacity style={styles.popularbtns3}>
 <Text style={styles.Texts}>Burger and Chips</Text>
+<Text style={styles.prize3}>R210</Text>
 </TouchableOpacity>
 </View>
-
-
-    
-
-
 
   );
 }
@@ -204,25 +140,41 @@ marginTop:-60,
 },
 
 popularbtns:{
-  marginLeft:140,
-marginTop:-70,
+  marginLeft:110,
+marginTop:-20,
 
 },
 popularbtns1:{
   marginLeft:'6%',
-marginTop:-210,
+marginTop:-110,
 
 },
 popularbtns2:{
-  marginLeft:'44%',
-marginTop:-280,
+  marginLeft:'30%',
+marginTop:-270,
 
 },
 popularbtns3:{
   marginLeft:'6%',
-marginTop:-150,
+marginTop:-140,
 },
+prize:{
+marginLeft:140,
+marginTop:-20,
+},
+prize1:{
+  marginLeft:230,
+  marginTop:-20,
+  },
+  prize2:{
+    marginLeft:130,
+    marginTop:-20,
 
+    },
+    prize3:{
+      marginLeft:230,
+      marginTop:-20,
+      },
 popularbutton:{
     margin:5,
 width:'33%',

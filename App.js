@@ -17,14 +17,19 @@ const Stack = createNativeStackNavigator();
     return (
     <NavigationContainer>
       <Stack.Navigator>
+      <Stack.Screen name="Home" component={Home}/>
+      <Stack.Screen name="Cart" component={Cart} />
+   
+      <Stack.Screen name="Dessert" component={Dessert}/> 
+      <Stack.Screen name="Order" component={Order}/>
       <Stack.Screen name="Login" component={Login} />
-      <Stack.Screen name="Home" component={Home} /> 
-              <Stack.Screen name="Cart" component={Cart} /> 
-      
-            <Stack.Screen name="Signup" component={Signup} />
-           
+      <Stack.Screen name="Signup" component={Signup} />
 
-                  <Stack.Screen name="Dessert" component={Dessert} /> 
+      
+    
+
+     
+              
   
     
           
@@ -38,7 +43,7 @@ const Stack = createNativeStackNavigator();
     
       
 
-            <Stack.Screen name="Order" component={Order} />
+          
  
   
         <Stack.Screen name="Start" component={Start} />
