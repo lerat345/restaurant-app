@@ -34,7 +34,7 @@ export default function Cart({ navigation, route }) {
       </View>
       <Text style={styles.par} source={route.params.paragraph}>pasta is a good source of energy and fibre and is made from grain</Text>
       <TouchableOpacity style={styles.button}>
-        <Text style={styles.carttxt} onPress={() => navigation.navigate('Order', { title: "", image: '' })} >Add to Cart</Text>
+        <Text style={styles.carttxt} onPress={() => navigation.navigate('Form', )} >Add to Cart</Text>
         <View>
           <Text style={styles.par2}>Total price</Text>
           <Text style={styles.par3}>$12.00</Text>

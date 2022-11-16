@@ -14,7 +14,6 @@ export default function Signup ({navigation}){
 
   const Register =()=>{
 
-
     createUserWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         // Signed in 

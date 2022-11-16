@@ -51,7 +51,6 @@ const nextpage = () => {
           onChangeText={(password) =>setPassword ( password)}
         />
         
-    
        <View  style={styles.btn}>
         <TouchableOpacity>
           <Text  style={styles.loginText}  onPress={Signin}>
@@ -77,7 +76,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#ecf0f1',
+    backgroundColor: '#fff',
   },
   input: {
     width: 300,
@@ -86,6 +85,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: 50,
     borderColor: 'black',
+    backgroundColor:'#B9869E',
     marginBottom: 10,
   },
   btn:{

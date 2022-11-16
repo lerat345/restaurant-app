@@ -61,8 +61,6 @@ export default function Home({ navigation }) {
 
       </View>
       
-
-
       <View style={styles.buttonContainer} >
       <TouchableOpacity  onPress={() => navigation.navigate('Cart', { title: "../assets/dessert.jfif", image: require('../assets/dessert.jfif') })} style={styles.item}>
 
@@ -93,7 +91,7 @@ const styles = StyleSheet.create({
     flex: 1,
 
     paddingTop: Constants.statusBarHeight,
-    backgroundColor: '#ecf0f1',
+    backgroundColor: '#fff',
     padding: 8,
   },
   buttonContainer: {

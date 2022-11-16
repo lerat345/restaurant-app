@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
     flex: 1,
     
     paddingTop: Constants.statusBarHeight,
-    backgroundColor: '#ecf0f1',
+    backgroundColor: '#fff',
     padding: 8,
   },
   buttonContainer:{

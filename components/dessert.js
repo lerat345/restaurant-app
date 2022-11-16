@@ -16,7 +16,7 @@ const nextpage = () => {
   return (
     <View style={styles.container}>  
         
-      <Text style={styles.paragraph}> 
+      <Text style={styles.heading}> 
  
       DELICIOUS SEAFOOD
    
@@ -27,14 +27,7 @@ const nextpage = () => {
       </View>
 <Image style={styles.main} source={require("../assets/dessert.jfif")}/>
 
-
- 
-
-
 <Image style={styles.mains} source={require("../assets/dessert2.jfif")}/>
-
- 
-
 
 <Image style={styles.mainPic} source={require("../assets/dessert3.jfif")}/>
 
@@ -61,19 +54,7 @@ const nextpage = () => {
 <Text style={styles.Texts}>ice cream cake</Text>
 </TouchableOpacity>
 
-  <View style={styles.buttonContainer}>
-<TouchableOpacity style={styles.popular}>
-<Text style={styles.popularTxt}>Discount</Text>
-<Text style={styles.Txt}>Total</Text>
-<Text style={styles.discountnumber}>$10.00</Text>
-<Text style={styles.totalnumber}>$390.00</Text>
-</TouchableOpacity>
-
-<TouchableOpacity style={styles.confirmbtn}>
-<Text style={styles.Text}> </Text>
-</TouchableOpacity>
-    
-</View >
+ 
 
 </View>
 
@@ -136,7 +117,7 @@ color:'#000',
   },
 
   popularbtn: {
-    margin:5,
+margin:5,
 width:'20%',
 height:40,
 backgroundColor:'#B9869E',
