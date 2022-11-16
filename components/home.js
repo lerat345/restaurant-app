@@ -60,8 +60,12 @@ export default function Home({ navigation }) {
         </TouchableOpacity>
 
       </View>
-      
-      <View style={styles.buttonContainer} >
+      <Text style={styles.paragraph}>
+        DELICIOUS DESSERT
+
+      </Text>
+
+      <View style={styles.buttonContainer}>
       <TouchableOpacity  onPress={() => navigation.navigate('Cart', { title: "../assets/dessert.jfif", image: require('../assets/dessert.jfif') })} style={styles.item}>
 
 <Image style={styles.pasta} source={require("../assets/dessert.jfif")} />

@@ -4,7 +4,7 @@ import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { collection, addDoc } from "firebase/firestore"; 
 import {db} from '../config/firebase'
 
-export default function Form ({ navigation }) {
+export default function Form ({navigation}) {
 
   const [name, setName] = useState();
   const [email, setEmail] = useState();
